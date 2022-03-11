@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "../button/Button";
 import StateButton from "../stateButton/StateButton";
+import Mapping from "./mapping/Mapping";
 
 function App() {
   function handleClick(e) {
@@ -25,6 +26,7 @@ function App() {
       <StateButton />
       </div>
       <div className="capture-5">
+      <Mapping />
       </div>
     </div>
   );
