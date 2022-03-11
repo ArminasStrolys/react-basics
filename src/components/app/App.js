@@ -2,6 +2,8 @@ import "./App.css";
 import Button from "../button/Button";
 import StateButton from "../stateButton/StateButton";
 import Mapping from "./mapping/Mapping";
+import EmojiList from "../emojiList/EmojiList";
+import GreetForm from "../greetForm/GreetForm";
 
 function App() {
   function handleClick(e) {
@@ -23,11 +25,21 @@ function App() {
         <Button num="3" />
       </div>
       <div className="capture-4">
-      <StateButton />
+        <StateButton />
       </div>
       <div className="capture-5">
-      <Mapping />
+        <Mapping />
+        <span>#5</span>
       </div>
+      <div className="capture-6">
+        <EmojiList />
+        <span>#6</span>
+      </div>
+      <div className="capture-7">
+        <GreetForm />
+      </div>
+      <div className="capture-8"></div>
+      <div className="capture-9"></div>
     </div>
   );
 }

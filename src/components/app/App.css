@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.capture-1, .capture-2, .capture-3, .capture-4, .capture-5 {
+.capture-1, .capture-2, .capture-3, .capture-4, .capture-5, .capture-6, .capture-7, .capture-8, .capture-9 {
   position: relative;
   top: 0;
   margin: auto;
@@ -40,6 +40,19 @@ button, p{
 
 .capture-5{
   background-color: #70ffe0;
+}
+
+.capture-6{
+  background-color: #7096ff;
+}
+.capture-7{
+  background-color: #cb70ff;
+}
+.capture-8{
+  background-color: #ff70f8;
+}
+.capture-9{
+  background-color: #ff7070;
 }
 
 .App-header {

@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+ul li:nth-child(1)::before {
+  content: "🌕 ";
+}
+ul li:nth-child(2)::before {
+  content: "🌖 ";
+}
+ul li:nth-child(3)::before {
+  content: "🌗 ";
+}
+ul li:nth-child(4)::before {
+  content: "🌘 ";
+}
+ul li:nth-child(5)::before {
+  content: "🌑 ";
+}
+ul li:nth-child(6)::before {
+  content: "🌕 ";
+}
