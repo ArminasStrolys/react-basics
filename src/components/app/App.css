@@ -50,10 +50,12 @@ button, p{
 }
 .capture-8{
   background-color: #ff70f8;
-  height: 450px;
+  height: 350px;
 }
 .capture-9{
   background-color: #ff7070;
+  height: 1000px;
+  width: 700px;
 }
 
 .App-header {

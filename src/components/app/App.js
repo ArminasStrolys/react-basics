@@ -5,8 +5,9 @@ import Mapping from "../mapping/Mapping";
 import EmojiList from "../emojiList/EmojiList";
 import GreetForm from "../greetForm/GreetForm";
 import RenderJSON from "../renderJSON/RenderJSON.jsx";
+import UserApi from "../userApi/UserApi";
 
-function App() {
+function App(props) {
   function handleClick(e) {
     e.preventDefault();
     console.log("You clicked a button.");
@@ -42,7 +43,9 @@ function App() {
       <div className="capture-8">
         <RenderJSON />
       </div>
-      <div className="capture-9"></div>
+      <div className="capture-9">
+      <UserApi />
+      </div>
     </div>
   );
 }

@@ -7,8 +7,7 @@ export default function RenderJSON() {
   return(
       <>
   <div>#8</div>
-  <p>
-      {JokeData.map((jk, index) => {
+      {JokeData.map((jk) => {
         return(
           <RenderOne 
           no={jk.id}
@@ -17,7 +16,6 @@ export default function RenderJSON() {
           />
         )
       })}
-  </p>
       </>
   )
 
