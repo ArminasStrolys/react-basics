@@ -5,7 +5,7 @@ import "./renderOne.css"
 export default function RenderOne(props) {
   return (
     <div className='jokeCard'>
-    <p>{props.joke1}</p>
+    <p><b>{props.joke1}</b></p>
     <br />
     <p>- {props.joke2}</p>
     </div>
