@@ -1,9 +1,10 @@
 import "./App.css";
 import Button from "../button/Button";
 import StateButton from "../stateButton/StateButton";
-import Mapping from "./mapping/Mapping";
+import Mapping from "../mapping/Mapping";
 import EmojiList from "../emojiList/EmojiList";
 import GreetForm from "../greetForm/GreetForm";
+import RenderJSON from "../renderJSON/RenderJSON.jsx";
 
 function App() {
   function handleClick(e) {
@@ -38,7 +39,9 @@ function App() {
       <div className="capture-7">
         <GreetForm />
       </div>
-      <div className="capture-8"></div>
+      <div className="capture-8">
+        <RenderJSON />
+      </div>
       <div className="capture-9"></div>
     </div>
   );

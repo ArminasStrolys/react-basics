@@ -18,7 +18,7 @@ export default function GreetForm() {
         <br />
         <input value={surName} onChange={e=>setSurName(e.target.value)} type="text" placeholder='Surname'/>
         <br />
-        <button onClick={handleClick} type="submit">ENTER</button>
+        <button onClick={handleClick} type="submit">ENTER (#7)</button>
     </form>
   )
 }
