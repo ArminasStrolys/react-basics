@@ -1,13 +1,9 @@
 import React from "react";
 import "./usersApi.css"
-import UserApi from "../userApi/UserApi";
+// import UserApi from "../userApi/UserApi";
 
 export default function UsersApi(props) {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log(`Fetch`);
-    alert(`Fetching data...`);
-  }
+
   return (
     <>
       {/* <div>UsersApi#9</div> */}
