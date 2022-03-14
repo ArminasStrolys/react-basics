@@ -3,7 +3,7 @@ import './emojiList.css'
 
 export default function EmojiList() {
     const animals = ["dog", "cat", "chicken", "cow", "sheep", "horse"];
-    const maps = animals.map((animal) => <li>{animal}</li>);
+    const maps = animals.map((animal, i) => <li>key={i}{animal}</li>);
     return (
       <>
         <ul style={{ textAlign: "center", paddingTop: "20px", color: "purple" }}>

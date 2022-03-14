@@ -7,10 +7,10 @@ export default function RenderJSON() {
   return(
       <>
   <div>#8</div>
-      {JokeData.map((jk) => {
+      {JokeData.map((jk, index) => {
         return(
           <RenderOne 
-          no={jk.id}
+          no={index}
           joke1={jk.setup}
           joke2={jk.punchline}
           />

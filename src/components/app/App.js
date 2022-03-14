@@ -13,11 +13,6 @@ function App(props) {
     console.log("You clicked a button.");
     alert("Clicked");
   }
-  function handleReset(e) {
-    // e.preventDefault();
-    // console.log(`Fetch`);
-    // alert(`Fetching data...`);
-  }
   return (
     <div className="App">
       <div className="capture-1">
@@ -48,7 +43,6 @@ function App(props) {
       <div className="capture-8">
         <RenderJSON />
       </div>
-      <button onClick={handleReset}>Reset users</button>
       <div className="capture-9">
 
       <UserApi />
